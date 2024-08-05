@@ -1,96 +1,69 @@
-## flutter_healthcare_app ![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2Fthealphamerc) [![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_healthcare_app?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_healthcare_app) ![GitHub forks](https://img.shields.io/github/forks/TheAlphamerc/flutter_healthcare_app?style=social) 
+# Job Clinic
 
-![Dart CI](https://github.com/TheAlphamerc/flutter_healthcare_app/workflows/Dart%20CI/badge.svg) ![GitHub pull requests](https://img.shields.io/github/issues-pr/TheAlphamerc/flutter_healthcare_app) ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/Thealphamerc/flutter_healthcare_app) ![GitHub last commit](https://img.shields.io/github/last-commit/Thealphamerc/flutter_healthcare_app)  ![GitHub issues](https://img.shields.io/github/issues-raw/Thealphamerc/flutter_healthcare_app) [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Thealphamerc/flutter_healthcare_app) 
+## Description
 
+Job Clinic is a revolutionary healthcare application designed to streamline and enhance the healthcare experience for users. It offers a comprehensive suite of features aimed at simplifying doctor appointments, tracking health metrics, and providing specialized support for expecting mothers.
 
-Healthcare app is a design implementaion of [Healthcare Mobile App](https://www.uplabs.com/posts/healthcare-mobile-app-d9081ded-e7b3-4705-8990-82ead42c22da) designed by [Chirag Chauhan](https://www.uplabs.com/chirag_designer2610)
+## Key Features
 
-## Download App ![GitHub All Releases](https://img.shields.io/github/downloads/Thealphamerc/flutter_healthcare_app/total?color=green)
-<a href="https://github.com/TheAlphamerc/flutter_healthcare_app/releases/download/v1.0.0/app-release.apk"><img src="https://playerzon.com/asset/download.png" width="200"></img></a>
-<img src="https://github.com/TheAlphamerc/flutter_healthcare_app/blob/master/screenshots/HealthcareMobileApp.png?raw=true"  /> 
+- **Seamless Doctor Appointments:** Easily book appointments with healthcare professionals, reducing wait times.
+- **Mother Passport Feature:** Track pregnancy milestones, medical records, and receive personalized health insights for expecting mothers.
+- **Comprehensive Health Monitoring:** Monitor important health metrics like blood pressure, heart rate, and glucose levels.
+- **Dashboard:**
+  - **Meet Doctors of the Week**
+  - **Divisions:** Sections for OBGYN, Aesthetic, Mental Health, and Sexual Wellness.
+  - **Our Doctors**
+  - **Division Dashboard:** Includes articles, doctors, specialized services, and support groups.
+  - **Choose Doctor for the Selected Division:** Select doctors based on specific needs.
+  - **Appointment Setting:** Calendar view, types of appointments (Regular, VIP), available slots, and payment breakdown.
+- **Mother Passport:** Track pregnancy timelines, children's data, lab results, GDM, and previous visits.
+- **Notifications:** Alerts and reminders for appointments and health tracking.
+- **Doctor Profiles:** Detailed profiles of healthcare professionals.
+- **All Bookings Data:** View both upcoming and previous bookings.
+- **Medical Reports:** Digital medical reports including health conditions, treatment, medicine, allergies, and past reactions.
+- **Appointment Management:** Create, update, or delete appointments.
+- **Health Tracking Dashboard:** Centralized monitoring of health metrics.
+- **Secure Checkout:** Secure payment process for services rendered.
 
-## Android Screenshots
+## Integrations and Tech Stack
 
-  HomePage                 |    Detail Page        
-:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_healthcare_app/blob/master/screenshots/screenshot_1.jpg?raw=true)|![](https://github.com/TheAlphamerc/flutter_healthcare_app/blob/master/screenshots/screenshot_2.jpg?raw=true)
+### Technologies Used
 
-## iOS Screenshots
-  HomePage                 |    Detail Page      
-:-------------------------:|:-------------------------:
-![](https://github.com/TheAlphamerc/flutter_healthcare_app/blob/master/screenshots/screenshot_ios_1.png?raw=true)|![](https://github.com/TheAlphamerc/flutter_healthcare_app/blob/master/screenshots/screenshot_ios_2.png?raw=true)
+- **Flutter:** Cross-platform mobile app development.
+- **GetX:** State management.
+- **sqflite:** Local database.
 
-## Directory Structure
-```
-|-- lib
-|   |-- main.dart
-|   '-- src
-|       |-- config
-|       |   '-- route.dart
-|       |-- model
-|       |   |-- dactor_model.dart
-|       |   '-- data.dart
-|       |-- pages
-|       |   |-- detail_page.dart
-|       |   |-- home_page.dart
-|       |   '-- splash_page.dart
-|       |-- theme
-|       |   |-- extention.dart
-|       |   |-- light_color.dart
-|       |   |-- text_styles.dart
-|       |   '-- theme.dart
-|       '-- widgets
-|           |-- coustom_route.dart
-|           |-- progress_widget.dart
-|           '-- rating_start.dart
-|-- pubspec.yaml
-|-- screenshots
-|   |-- HealthcareMobileApp.png
-|   |-- screenshot_1.jpg
-|   |-- screenshot_2.jpg
-|   |-- screenshot_ios_1.png
-|   '-- screenshot_ios_2.png
-'-- test
-    '-- widget_test.dart
-```
-## Pull Requests
+### Integrations
 
-I welcome and encourage all pull requests. It usually will take me within 24-48 hours to respond to any issue or request.
+- **Healthcare Systems:** Real-time appointment scheduling and prescription management.
+- **Wearable Health Devices:** Seamless health monitoring.
 
-## Flutter projects
- Project Name        |Stars        
-:-------------------------|-------------------------
-[Twitter clone](https://github.com/TheAlphamerc/flutter_twitter_clone)| [![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_twitter_clone?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_twitter_clone)
-|[Ecommerce App](https://github.com/TheAlphamerc/flutter_ecommerce_app) |[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_ecommerce_app?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_ecommerce_app)
-|[Smart course](https://github.com/TheAlphamerc/flutter_smart_course) |[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_smart_course?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_smart_course)
-|[Pokedex](https://github.com/TheAlphamerc/flutter_pokedex)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_pokedex?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_pokedex)
-|[Authentication](https://github.com/TheAlphamerc/flutter_login_signup)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_login_signup?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_login_signup)
-|[Wallet App](https://github.com/TheAlphamerc/flutter_wallet_app)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_wallet_app?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_wallet_app)
-|[News App](https://github.com/TheAlphamerc/flutter_news_app)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_news_app?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_news_app)
-|[Watch App](https://github.com/TheAlphamerc/flutter_SoftUI_watchApp)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_SoftUI_watchApp?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_SoftUI_watchApp)
-|[Smart Home App](https://github.com/TheAlphamerc/flutter_smart_home_app)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_smart_home_app?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_smart_home_app)
-|[Yatch Booking App](https://github.com/TheAlphamerc/flutter_yatch_booking)|[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_yatch_booking?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_yatch_booking)
+## Contributions
 
-## Flutter plugins
-Plugin Name        | Stars        
-:-------------------------|-------------------------
-|[Empty widget](https://github.com/TheAlphamerc/empty_widget) |[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/empty_widget?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%empty_widget)
-|[Add Thumbnail](https://github.com/TheAlphamerc/flutter_plugin_add_thumbnail) |[![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_plugin_add_thumbnail?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_plugin_add_thumbnail)
-|[Filter List](https://github.com/TheAlphamerc/flutter_plugin_filter_list)| [![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_plugin_filter_list?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_plugin_filter_list)
+As a developer on the Job Clinic project, my contributions included:
 
-## Created & Maintained By
+- Implementing the **Mother Passport Feature** for accurate tracking of pregnancy milestones.
+- Developing **Comprehensive Health Monitoring** tools and integrating them with wearable health devices.
+- Creating the **Division Dashboard** with relevant articles, specialized services, and support groups.
+- Designing the **Appointment Setting** functionality, including available slots and payment breakdown.
+- Ensuring the **Health Tracking Dashboard** effectively displays vital health metrics.
 
-[Sonu Sharma](https://github.com/TheAlphamerc) ([Twitter](https://www.twitter.com/TheAlphamerc)) ([Youtube](https://www.youtube.com/user/sonusharma045sonu/)) ([Insta](https://www.instagram.com/_sonu_sharma__)) ([Dev.to](https://dev.to/thealphamerc))
-  ![Twitter Follow](https://img.shields.io/twitter/follow/thealphamerc?style=social) 
+## Impact
+
+- **Enhanced User Experience:** Improved functionality and usability.
+- **Proactive Health Management:** Empowered users to manage their health efficiently.
+- **Streamlined Healthcare Access:** Personalized and convenient access to healthcare services.
+
+## Conclusion
+
+The development of Job Clinic has resulted in a robust, user-friendly application that empowers users to take control of their health and well-being. By providing seamless access to healthcare services and comprehensive health tracking tools, the app significantly improves the healthcare experience for its users. My contributions have been crucial in achieving these outcomes, demonstrating the impact of thoughtful and innovative development.
+
+## Snapshots: 
+![register-1](https://github.com/user-attachments/assets/5136bd12-77b8-4d04-88ca-c5d63b8e457d)
+![Doctor page](https://github.com/user-attachments/assets/4c04b286-6755-4c91-9cc4-57cfe2af0b26)
+![OBGYN](https://github.com/user-attachments/assets/af1bf873-7ef5-4d4a-a4e3-11fee5b6d1d7)
+![home](https://github.com/user-attachments/assets/fdbd8d9e-655f-4a8c-9c15-4fbdcf1f96ed)
+![doctor profile](https://github.com/user-attachments/assets/069afea2-bf60-4a1a-b312-104f9ad04073)
 
 
-> If you found this project helpful or you learned something from the source code and want to thank me, consider buying me a cup of :coffee:
->
-> * [PayPal](https://paypal.me/TheAlphamerc/)
-
-> You can also nominate me for Github Star developer program  https://stars.github.com/nominate
-
-
-## Visitors Count
-
-<img align="left" src = "https://profile-counter.glitch.me/flutter_healthcare_app/count.svg" alt ="Loading">
+---
