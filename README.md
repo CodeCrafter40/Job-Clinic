@@ -59,6 +59,7 @@ As a developer on the Job Clinic project, my contributions included:
 The development of Job Clinic has resulted in a robust, user-friendly application that empowers users to take control of their health and well-being. By providing seamless access to healthcare services and comprehensive health tracking tools, the app significantly improves the healthcare experience for its users. My contributions have been crucial in achieving these outcomes, demonstrating the impact of thoughtful and innovative development.
 
 ## Snapshots: 
+
 ![register-1](https://github.com/user-attachments/assets/5136bd12-77b8-4d04-88ca-c5d63b8e457d)
 ![Doctor page](https://github.com/user-attachments/assets/4c04b286-6755-4c91-9cc4-57cfe2af0b26)
 ![OBGYN](https://github.com/user-attachments/assets/af1bf873-7ef5-4d4a-a4e3-11fee5b6d1d7)
