@@ -29,6 +29,16 @@ Job Clinic is a revolutionary healthcare application designed to streamline and 
 
 ### Technologies Used
 
+
+![Flutter](https://img.shields.io/badge/Flutter-3.13.0-blue?logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-3.1.0-blue?logo=dart&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-10.4.1-orange?logo=firebase&logoColor=white)
+![Android](https://img.shields.io/badge/Android-13.0-green?logo=android&logoColor=white)
+![iOS](https://img.shields.io/badge/iOS-17.0-blue?logo=apple&logoColor=white)
+![Git](https://img.shields.io/badge/Git-2.41.0-fc6d26?logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-24.0.4-blue?logo=docker&logoColor=white)
+
+
 - **Flutter:** Cross-platform mobile app development.
 - **GetX:** State management.
 - **sqflite:** Local database.
